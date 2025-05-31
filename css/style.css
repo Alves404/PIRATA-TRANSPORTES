@@ -85,42 +85,42 @@ a {
 
 #requisito1 
 { 
-    animation: slide-in-right 1s ease-in-out;
+    animation: slide-in-right 0.5s ease-in-out;
     padding: 25px;
 }
 
 #requisito2
 {
-    animation: slide-in-right 1.5s ease-in-out;
+    animation: slide-in-right 1s ease-in-out;
 }
 
 #requisito3
 {
-    animation: slide-in-right 2s ease-in-out;
+    animation: slide-in-right 1.5s ease-in-out;
 }
 
 #requisito4
 {
-    animation: slide-in-right 2.5s ease-in-out;
+    animation: slide-in-right 2s ease-in-out;
 }
 
 #requisito5
 {
-    animation: slide-in-right 3s ease-in-out;
+    animation: slide-in-right 2.5s ease-in-out;
 }
 
 #requisito6
 {
-    animation: slide-in-right 3.5s ease-in-out;
+    animation: slide-in-right 3s ease-in-out;
 }
 
 #requisito7
 {
-    animation: slide-in-right 4s ease-in-out;
+    animation: slide-in-right 3.5s ease-in-out;
 }
 #requisito8
 {
-    animation: slide-in-right 4.5s ease-in-out;
+    animation: slide-in-right 4s ease-in-out;
 }
 
 h2 {
