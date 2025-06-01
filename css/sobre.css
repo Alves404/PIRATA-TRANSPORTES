@@ -135,7 +135,7 @@ h2 {
 .foto {
     max-width: 100%; ;
     height: fit-content;
-    border-radius: 1px;
+    border-radius: 10px;
     margin-top: px;
 }
 
