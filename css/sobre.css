@@ -22,18 +22,40 @@ header h1 {
     background: rgb(0, 0, 0);
     padding: 5px 5px;
     border-radius: 8px;
-    box-shadow: 5px 5px #000a;
     transform: translateY(2px) scale(0.97);
 }
 .bcimas:hover {
     background: #000000;
-    box-shadow: 5px 5px rgb(255, 0, 0);
-    border: rgb(255, 0, 0) 5px solid;
-    transform: translateY(2px) scale(0.97);
+}
+
+#bcimas1:hover {
+    box-shadow: 5px 5px rgb(0, 148, 44);
+    border: rgb(0, 255, 76) 5px solid;
     transform: translateY(2px) scale(0.97);
     transition: 
         box-shadow 0.35s cubic-bezier(.4,2,.6,1),
         transform 0.28s cubic-bezier(.4,2,.6,1);
+    color: rgb(0, 255, 76);
+}
+
+#bcimas2:hover {
+    box-shadow: 5px 5px rgb(148, 151, 0);
+    border: rgb(220, 255, 0) 5px solid;
+    transform: translateY(2px) scale(0.97);
+    transition: 
+        box-shadow 0.35s cubic-bezier(.4,2,.6,1),
+        transform 0.28s cubic-bezier(.4,2,.6,1);
+    color: rgb(220, 255, 0);
+}
+
+#bcimas3:hover {
+    box-shadow: 5px 5px rgb(0, 120, 255);
+    border: rgb(0, 140, 255) 5px solid;
+    transform: translateY(2px) scale(0.97);
+    transition: 
+        box-shadow 0.35s cubic-bezier(.4,2,.6,1),
+        transform 0.28s cubic-bezier(.4,2,.6,1);
+    color: rgb(0, 153, 255);
 }
 
 nav {
@@ -86,56 +108,10 @@ a {
     text-decoration: none;
 
 }
-.requisito
-{
-    border-radius: 10px;
-    background: #282828;
-    border-left: 5px solid #e50914;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-#requisito1 { animation: slide-in-right 0.5s ease-in-out; padding: 25px; }
-#requisito2 { animation: slide-in-right 1s ease-in-out; }
-#requisito3 { animation: slide-in-right 1.5s ease-in-out; }
-#requisito4 { animation: slide-in-right 2s ease-in-out; }
-#requisito5 { animation: slide-in-right 2.5s ease-in-out; }
-#requisito6 { animation: slide-in-right 3s ease-in-out; }
-#requisito7 { animation: slide-in-right 3.5s ease-in-out; }
-#requisito8 { animation: slide-in-right 4s ease-in-out; }
 
 h2 {
     color: #e50914;
     margin-top: 0;
-}
-#bcimas1:hover {
-    box-shadow: 5px 5px rgb(0, 148, 44);
-    border: rgb(0, 255, 76) 5px solid;
-    transform: translateY(2px) scale(0.97);
-    transition: 
-        box-shadow 0.35s cubic-bezier(.4,2,.6,1),
-        transform 0.28s cubic-bezier(.4,2,.6,1);
-    color: rgb(0, 255, 76);
-}
-
-#bcimas2:hover {
-    box-shadow: 5px 5px rgb(148, 151, 0);
-    border: rgb(220, 255, 0) 5px solid;
-    transform: translateY(2px) scale(0.97);
-    transition: 
-        box-shadow 0.35s cubic-bezier(.4,2,.6,1),
-        transform 0.28s cubic-bezier(.4,2,.6,1);
-    color: rgb(220, 255, 0);
-}
-
-#bcimas3:hover {
-    box-shadow: 5px 5px rgb(0, 120, 255);
-    border: rgb(0, 140, 255) 5px solid;
-    transform: translateY(2px) scale(0.97);
-    transition: 
-        box-shadow 0.35s cubic-bezier(.4,2,.6,1),
-        transform 0.28s cubic-bezier(.4,2,.6,1);
-    color: rgb(0, 153, 255);
 }
 
 .btn {
@@ -155,12 +131,14 @@ h2 {
         box-shadow 0.35s cubic-bezier(.4,2,.6,1),
         transform 0.28s cubic-bezier(.4,2,.6,1);
 }
+
 .foto {
     max-width: 100%; ;
     height: fit-content;
     border-radius: 1px;
     margin-top: px;
 }
+
 footer {
     background: #1a1a1a;
     color: #888;
@@ -168,13 +146,4 @@ footer {
     padding: 15px 0;
     border-top: 2px solid #e50914;
     margin-top: 40px;
-}
-
-#imagem {
-    margin-top: 15px;
-    margin-left: -10px;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px #000a;
 }
