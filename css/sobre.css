@@ -115,7 +115,7 @@ h2 {
 }
 
 .btn {
-    background: #e50914;
+    background: #e50914; 
     color: #fff;
     border: rgba(0, 0, 0, 0.589) 5px solid;
     padding: 12px 28px;
@@ -133,7 +133,7 @@ h2 {
 }
 
 .foto {
-    max-width: 100%; ;
+    max-width: 100%;
     height: fit-content;
     border-radius: 10px;
     margin-top: px;
